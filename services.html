@@ -352,15 +352,15 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0543900358" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
   <div class="nav-container">
@@ -814,7 +814,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '054-390-0358';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -840,11 +840,11 @@
         <h1 class="services-overview-section__title">מעבדת תיקונים מקצועית <span class="services-overview-section__accent-word">לסלולר</span></h1>
         <p class="services-overview-section__subtitle">Smart Point – המעבדה האמינה בחיפה לתיקוני טלפונים, החלפת מסכים, סוללות, גאדג'טים ואביזרים. שירות מהיר, מקצועי ובמחירים הוגנים.</p>
         <div class="services-overview-section__chips">
-          <span class="services-overview-section__chip"><svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>החלפת מסך</span>
-          <span class="services-overview-section__chip"><svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="18" height="12" rx="2" ry="2"/><line x1="23" y1="13" x2="23" y2="11"/><polyline points="20 13 23 13 23 11 20 11"/></svg>החלפת סוללה</span>
-          <span class="services-overview-section__chip"><svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>תיקונים כלליים</span>
-          <span class="services-overview-section__chip"><svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>מכירת מכשירים</span>
-          <span class="services-overview-section__chip"><svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>גאדג׳טים ואביזרים</span>
+          <span class="services-overview-section__chip"><svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>החלפת מסך</span>
+          <span class="services-overview-section__chip"><svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="6" width="18" height="12" rx="2" ry="2"></rect><line x1="23" y1="13" x2="23" y2="11"></line><polyline points="20 13 23 13 23 11 20 11"></polyline></svg>החלפת סוללה</span>
+          <span class="services-overview-section__chip"><svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>תיקונים כלליים</span>
+          <span class="services-overview-section__chip"><svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>מכירת מכשירים</span>
+          <span class="services-overview-section__chip"><svg data-element-type="icon" data-icon-type="svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>גאדג׳טים ואביזרים</span>
         </div>
         <div class="services-overview-section__cta-row">
           <a href="#contact" class="services-overview-section__btn-primary">צור קשר עכשיו</a>
@@ -854,21 +854,21 @@
       <div class="services-overview-section__visual">
         <div class="services-overview-section__phone-art">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 200 340" fill="none" xmlns="http://www.w3.org/2000/svg" class="services-overview-section__phone-svg">
-            <rect x="15" y="10" width="170" height="320" rx="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            <line x1="60" y1="30" x2="140" y2="30" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"/>
-            <circle cx="100" cy="50" r="4" fill="#F4B400"/>
-            <rect x="40" y="80" width="120" height="8" rx="4" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round"/>
-            <rect x="40" y="100" width="90" height="8" rx="4" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round"/>
-            <rect x="40" y="130" width="120" height="60" rx="8" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 6"/>
-            <circle cx="100" cy="160" r="12" stroke="#00D4FF" stroke-width="1.5"/>
-            <line x1="100" y1="148" x2="100" y2="172" stroke="#00D4FF" stroke-width="1.5"/>
-            <line x1="88" y1="160" x2="112" y2="160" stroke="#00D4FF" stroke-width="1.5"/>
-            <rect x="40" y="220" width="120" height="8" rx="4" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round"/>
-            <rect x="40" y="240" width="60" height="8" rx="4" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round"/>
-            <rect x="40" y="270" width="120" height="40" rx="8" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round"/>
-            <circle cx="100" cy="290" r="6" stroke="#F4B400" stroke-width="1.5"/>
-            <line x1="100" y1="284" x2="100" y2="296" stroke="#F4B400" stroke-width="1.5"/>
-            <line x1="94" y1="290" x2="106" y2="290" stroke="#F4B400" stroke-width="1.5"/>
+            <rect x="15" y="10" width="170" height="320" rx="28" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect>
+            <line x1="60" y1="30" x2="140" y2="30" stroke="#00D4FF" stroke-width="2" stroke-linecap="round"></line>
+            <circle cx="100" cy="50" r="4" fill="#F4B400"></circle>
+            <rect x="40" y="80" width="120" height="8" rx="4" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round"></rect>
+            <rect x="40" y="100" width="90" height="8" rx="4" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round"></rect>
+            <rect x="40" y="130" width="120" height="60" rx="8" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 6"></rect>
+            <circle cx="100" cy="160" r="12" stroke="#00D4FF" stroke-width="1.5"></circle>
+            <line x1="100" y1="148" x2="100" y2="172" stroke="#00D4FF" stroke-width="1.5"></line>
+            <line x1="88" y1="160" x2="112" y2="160" stroke="#00D4FF" stroke-width="1.5"></line>
+            <rect x="40" y="220" width="120" height="8" rx="4" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round"></rect>
+            <rect x="40" y="240" width="60" height="8" rx="4" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round"></rect>
+            <rect x="40" y="270" width="120" height="40" rx="8" stroke="#00D4FF" stroke-width="1.5" stroke-linecap="round"></rect>
+            <circle cx="100" cy="290" r="6" stroke="#F4B400" stroke-width="1.5"></circle>
+            <line x1="100" y1="284" x2="100" y2="296" stroke="#F4B400" stroke-width="1.5"></line>
+            <line x1="94" y1="290" x2="106" y2="290" stroke="#F4B400" stroke-width="1.5"></line>
           </svg>
           <div class="services-overview-section__neon-ring" aria-hidden="true"></div>
         </div>
@@ -888,10 +888,10 @@
         <div class="services-repair-services-section__card-accent"></div>
         <div class="services-repair-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="4" y="6" width="24" height="20" rx="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M4 14H28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <circle cx="16" cy="24" r="1.5" fill="currentColor"/>
-            <path d="M12 4L14 2H18L20 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="4" y="6" width="24" height="20" rx="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></rect>
+            <path d="M4 14H28" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <circle cx="16" cy="24" r="1.5" fill="currentColor"></circle>
+            <path d="M12 4L14 2H18L20 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3 class="services-repair-services-section__card-title">החלפת מסך</h3>
@@ -908,10 +908,10 @@
         <div class="services-repair-services-section__card-accent"></div>
         <div class="services-repair-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="6" y="10" width="20" height="16" rx="4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M12 10V7C12 5.89543 12.8954 5 14 5H18C19.1046 5 20 5.89543 20 7V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M8 18H24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            <path d="M8 22H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            <rect x="6" y="10" width="20" height="16" rx="4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></rect>
+            <path d="M12 10V7C12 5.89543 12.8954 5 14 5H18C19.1046 5 20 5.89543 20 7V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M8 18H24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M8 22H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
           </svg>
         </div>
         <h3 class="services-repair-services-section__card-title">החלפת סוללה</h3>
@@ -928,10 +928,10 @@
         <div class="services-repair-services-section__card-accent"></div>
         <div class="services-repair-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="16" cy="16" r="10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M16 10V16L20 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M6 6L10 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M26 6L22 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="16" cy="16" r="10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+            <path d="M16 10V16L20 20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M6 6L10 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M26 6L22 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         </div>
         <h3 class="services-repair-services-section__card-title">אבחון תקלות כללי</h3>
@@ -948,11 +948,11 @@
         <div class="services-repair-services-section__card-accent"></div>
         <div class="services-repair-services-section__card-icon">
           <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="16" cy="11" r="5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M8 27C8 22.5817 11.5817 19 16 19C20.4183 19 24 22.5817 24 27" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M16 16L18 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <circle cx="22" cy="8" r="1.5" fill="currentColor"/>
-            <circle cx="24" cy="5" r="1" fill="currentColor"/>
+            <circle cx="16" cy="11" r="5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+            <path d="M8 27C8 22.5817 11.5817 19 16 19C20.4183 19 24 22.5817 24 27" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M16 16L18 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle cx="22" cy="8" r="1.5" fill="currentColor"></circle>
+            <circle cx="24" cy="5" r="1" fill="currentColor"></circle>
           </svg>
         </div>
         <h3 class="services-repair-services-section__card-title">התייעצות מקצועית</h3>
@@ -987,7 +987,7 @@
       <ul class="services-product-support-section__features">
         <li class="services-product-support-section__feature-item">
           <div class="services-product-support-section__feature-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
           </div>
           <div class="services-product-support-section__feature-text">
             <h3 class="services-product-support-section__feature-title">מכשירים חדשים ופתוחים</h3>
@@ -996,7 +996,7 @@
         </li>
         <li class="services-product-support-section__feature-item">
           <div class="services-product-support-section__feature-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
           </div>
           <div class="services-product-support-section__feature-text">
             <h3 class="services-product-support-section__feature-title">אביזרים ומגנים איכותיים</h3>
@@ -1005,7 +1005,7 @@
         </li>
         <li class="services-product-support-section__feature-item">
           <div class="services-product-support-section__feature-icon">
-            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <svg data-element-type="icon" data-icon-type="svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
           </div>
           <div class="services-product-support-section__feature-text">
             <h3 class="services-product-support-section__feature-title">שירות לקוחות מקצועי</h3>
@@ -1100,8 +1100,8 @@
         
       </div>
       <p class="services-cta-section__location">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        <span>אוסקר שינדלר 7, חיפה (קומה -1) — </span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-icon-type="svg"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        <span>אוסקר שינדלר 7, חיפה, 3499604, ישראל</span>
       </p>
     </div>
   </div>
@@ -1140,30 +1140,28 @@
         </li>
         <li>
           <span class="contact-icon"><i class="fas fa-phone"></i></span>
-          <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+          <span class="contact-text"><a href="tel:054-390-0358">054-390-0358</a></span>
         </li>
-        <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-          <span class="contact-text">[business_address]</span></a></li>
+        <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%90%D7%95%D7%A1%D7%A7%D7%A8%20%D7%A9%D7%99%D7%A0%D7%93%D7%9C%D7%A8%207%2C%20%D7%97%D7%99%D7%A4%D7%94%2C%203499604%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer" style="display:flex;align-items:flex-start;gap:inherit"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+          <span class="contact-text">אוסקר שינדלר 7, חיפה, 3499604, ישראל</span></a></li>
       </ul>
     </div>
 
     <!-- Business Hours Column -->
     <div class="footer-col footer-hours-col">
       <h4>שעות פעילות</h4>
-      <ul class="footer-hours">
-        <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-        <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-        <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-      </ul>
+      <ul class="footer-hours"><li><a href="/"><span class="hours-day">יום א’</span> <span class="hours-time">סגור</span></a></li>
+<li><a href="/"><span class="hours-day">ימים ב’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
     </div>
 
     <!-- Social Media Column -->
     <div class="footer-col footer-social-col">
       <h4>עקבו אחרינו</h4>
       <div class="footer-social">
-        <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
-        <a href="#" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" aria-label="Facebook" data-zappy-social-placeholder="true" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com/smartpointhaifa" aria-label="Instagram" data-zappy-social-placeholder="true"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/972543900358" aria-label="WhatsApp" data-zappy-social-placeholder="true"><i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
 
@@ -1185,7 +1183,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/972543900358" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

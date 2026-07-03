@@ -831,10 +831,18 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="סקירה כללית-hero" data-hero-type="fullscreen-scrim">
+    <section data-band-index="0" class="index-hero-section" data-layout-spec="סקירה כללית-hero" data-hero-type="fullscreen-scrim" style="; position: relative; overflow: hidden;">
+<div class="hero-video-background">
+  <div class="hero-video-overlay"></div>
+  <video class="hero-video" autoplay="" muted="" loop="" playsinline="">
+    <source src="/assets/hero-video-9dd431c11a8c41e0b59e5f7f6fe70907-1783070366569.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <img class="hero-video-fallback" src="/assets/site-index-hero-image-1.webp" alt="Hero background" loading="lazy">
+</div>
   <!-- Background Image Layer -->
   <div class="hero-bg-wrapper">
-    <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A close-up cinematic shot of a mobile phone repair bench in a dark workshop. A smartphone with a cracked screen is illuminated by a bright cyan diagnostic light. Tools like precision screwdrivers and tweezers are scattered on a graphite anti-static mat. Blue and cyan LED strips cast a glow on the metallic tools, with subtle amber indicator lights blinking in the background." width="1200" height="600" src="/assets/site-index-hero-image-1.webp" alt="מעבדת תיקונים סמארט פוינט עם תאורת דיאגנוסטיקה כחולה">
+    <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A close-up cinematic shot of a mobile phone repair bench in a dark workshop. A smartphone with a cracked screen is illuminated by a bright cyan diagnostic light. Tools like precision screwdrivers and tweezers are scattered on a graphite anti-static mat. Blue and cyan LED strips cast a glow on the metallic tools, with subtle amber indicator lights blinking in the background." width="1200" height="600" src="/assets/site-index-hero-image-1.webp" alt="מעבדת תיקונים סמארט פוינט עם תאורת דיאגנוסטיקה כחולה" style="; display: none !important;" class="hero-original-image-hidden">
   </div>
 
   <!-- Scrim Overlay for Legibility -->
@@ -845,7 +853,7 @@
   <div class="hero-decoration neon-ring-accent" aria-hidden="true"></div>
 
   <!-- Content Overlay Group (START side) -->
-  <div class="hero-overlay">
+  <div class="hero-overlay hero-original-overlay-hidden" style="; display: none !important;">
     <h1 class="hero-title">מעבדת תיקונים<br>מתקדמת בחיפה</h1>
     <h3 class="hero-subtitle">החלפת מסך, החלפת סוללה, תיקוני סלולר, מכירת מכשירים, גאדג׳טים ואביזרים</h3>
     <p class="hero-description">שירות מהיר ומקצועי עם מענה אישי למשפחות, בני נוער ואנשי מקצוע תלויי טכנולוגיה. אנחנו כאן בדיוק כשצריך אותנו.</p>

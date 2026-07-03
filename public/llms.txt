@@ -7,45 +7,45 @@
 ## Pages
 
 ### סקירה כללית
-https://smart-point-b589d273.zappy5.app
+https://example.com
 מחפשים שירות לקוחות מקצועי לתיקון המכשיר? במעבדת Smart Point בחיפה תקבלו מענה מהיר ואמין למסכים, סוללות ועוד. בואו לאוסקר שינדלר 7 וחזרו לפעילות מלאה!
 
 ### תמונות
-https://smart-point-b589d273.zappy5.app/photos
+https://example.com/photos
 רוצים לראות איך נראית מעבדת תיקונים מקצועית בפעולה? גללו בתמונות של Smart Point וגלו תיקונים איכותיים, מכשירים מטופלים ורגעי שירות לקוחות מקצועי שאנחנו גאים בהם.
 
 ### שירותים
-https://smart-point-b589d273.zappy5.app/services
+https://example.com/services
 מהחלפת מסך ועד ייעוץ מקצועי, Smart Point מציעה שירות לקוחות מקצועי עם אביזרים לטלפון במחירים שווים. קחו נשימה, אנחנו מטפלים בהכל במעבדה באוסקר שינדלר 7.
 
 ### ביקורות
-https://smart-point-b589d273.zappy5.app/reviews
+https://example.com/reviews
 שירות מהיר ואמין? תשאלו את הלקוחות! קראו ביקורות אמיתיות על Smart Point, מעבדת תיקונים מקצועית בחיפה שמציעה אביזרים לטלפון במחירים שווים ויחס אישי ששווה זהב.
 
 ### אודות
-https://smart-point-b589d273.zappy5.app/about
+https://example.com/about
 Smart Point היא יותר ממעבדת תיקונים מקצועית – אנחנו צוות שמאמין בשירות לקוחות מקצועי, שקיפות וזמינות. האזינו לסיפור שלנו וקבלו הצצה לעולם התיקונים באוסקר שינדלר 7.
 
 ### צור קשר
-https://smart-point-b589d273.zappy5.app/contact
+https://example.com/contact
 צרו קשר עם Smart Point עוד היום! בין אם אתם צריכים שירות לקוחות מקצועי, מסירת חבילות או אביזרים לטלפון במחירים שווים – אנחנו מחכים לכם באוסקר שינדלר 7, קומה 1-.
 
 ### תודה - Smart Point
-https://smart-point-b589d273.zappy5.app/thank-you
+https://example.com/thank-you
 Smart Point - תודה - Smart Point
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://smart-point-b589d273.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://smart-point-b589d273.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://smart-point-b589d273.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -55,8 +55,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://smart-point-b589d273.zappy5.app/contact
-- Endpoint: https://smart-point-b589d273.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -86,6 +86,6 @@ Mobile Phone Repair & Electronics
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://smart-point-b589d273.zappy5.app/sitemap.xml
-- Robots: https://smart-point-b589d273.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://smart-point-b589d273.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt

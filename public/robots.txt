@@ -50,4 +50,4 @@ Allow: /
 User-agent: MistralAI-User
 Allow: /
 
-Sitemap: https://smart-point-b589d273.zappy5.app/sitemap.xml
+Sitemap: https://example.com/sitemap.xml

@@ -925,7 +925,7 @@
         <div class="contact-form__field">
           <label for="name" class="contact-form__label">שם מלא</label>
           <input type="text" id="name" name="name" class="contact-form__input" placeholder="ישראל ישראלי" required="" style="border-color: rgb(229, 62, 62);">
-        </div>
+        <span class="error-message" style="color: rgb(229, 62, 62); font-size: 0.875rem; margin-top: 0.25rem; display: block;">כתוב שם פרטי + שם משפחה*</span></div>
         <div class="contact-form__field">
           <label for="email" class="contact-form__label">אימייל</label>
           <input type="email" id="email" name="email" class="contact-form__input" placeholder="your@email.com" required="">
@@ -991,15 +991,14 @@
   </div>
 </section>
 
-<section class="contact-visit-info-section" data-layout-spec="צור קשר-visit-info">
+<section class="contact-visit-info-section" data-layout-spec="צור קשר-visit-info" id="contact-visit-info-section">
   <div class="contact-visit-info-section__bg-grid" aria-hidden="true"></div>
   <div class="contact-visit-info-section__container">
     <div class="contact-visit-info-section__grid">
       <div class="contact-visit-info-section__info">
-        <div class="contact-visit-info-section__status">
+        <div class="contact-visit-info-section__status" style="">
           <span class="contact-visit-info-section__status-dot" aria-hidden="true"></span>
-          <span class="contact-visit-info-section__status-text">פתוח כעת</span>
-          <span class="contact-visit-info-section__status-divider" aria-hidden="true">·</span>
+          <span class="contact-visit-info-section__status-text"><br></span>
           <span class="contact-visit-info-section__status-hours">שעות פעילות: א'-ה' 10:00–19:00, ו' 10:00–14:00</span>
         </div>
         <h2 class="contact-visit-info-section__title">המעבדה שלנו מחכה לך</h2>
@@ -1007,7 +1006,7 @@
           Smart Point ממוקמת בלב חיפה, במתחם נגיש ונוח להגעה. אנו מזמינים אותך לבקר במעבדה, להתרשם מהמכשירים והאביזרים, ולקבל שירות מקצועי ואדיב. ניתן להתקשר או לשלוח הודעה לפני ההגעה לתיאום ציפיות.
         </p>
         <ul class="contact-visit-info-section__details">
-          <li class="contact-visit-info-section__detail-item">
+          <li class="contact-visit-info-section__detail-item" data-grid-item-index="0">
             <div class="contact-visit-info-section__detail-icon" aria-hidden="true">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
                 <path d="M10 10.8333C11.3807 10.8333 12.5 9.71404 12.5 8.33333C12.5 6.95262 11.3807 5.83333 10 5.83333C8.61929 5.83333 7.5 6.95262 7.5 8.33333C7.5 9.71404 8.61929 10.8333 10 10.8333Z" stroke="currentColor" stroke-width="1.5"></path>
@@ -1016,7 +1015,7 @@
             </div>
             <a href="https://maps.google.com/?q=אוסקר שינדלר 7 חיפה" target="_blank" rel="noopener noreferrer" class="contact-visit-info-section__detail-link">אוסקר שינדלר 7, חיפה (קומה -1)</a>
           </li>
-          <li class="contact-visit-info-section__detail-item">
+          <li class="contact-visit-info-section__detail-item" data-grid-item-index="1">
             <div class="contact-visit-info-section__detail-icon" aria-hidden="true">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
                 <path d="M18.3333 14.1667V16.6667C18.3333 17.1087 18.1577 17.5326 17.8452 17.8452C17.5326 18.1577 17.1087 18.3333 16.6667 18.3333C8.46905 18.3333 1.66667 11.5309 1.66667 3.33333C1.66667 2.89131 1.84226 2.46738 2.15482 2.15482C2.46738 1.84226 2.89131 1.66667 3.33333 1.66667H5.83333C6.27536 1.66667 6.69928 1.84226 7.01184 2.15482C7.32441 2.46738 7.5 2.89131 7.5 3.33333C7.5 4.58333 7.91667 5.75 8.58333 6.66667C8.75 6.91667 8.75 7.25 8.58333 7.5L7.41667 8.66667C8.75 11.1667 10.8333 13.25 13.3333 14.5833L14.5 13.4167C14.75 13.25 15.0833 13.25 15.3333 13.4167C16.25 14.0833 17.4167 14.5 18.6667 14.5C19.1087 14.5 19.5326 14.6756 19.8452 14.9882C20.1577 15.3007 20.3333 15.7246 20.3333 16.1667" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -1024,7 +1023,7 @@
             </div>
             <a href="tel:0543900358" class="contact-visit-info-section__detail-link">054-390-0358</a>
           </li>
-          <li class="contact-visit-info-section__detail-item">
+          <li class="contact-visit-info-section__detail-item" data-grid-item-index="2">
             <div class="contact-visit-info-section__detail-icon" aria-hidden="true">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
                 <rect x="2.5" y="2.5" width="15" height="15" rx="4" stroke="currentColor" stroke-width="1.5"></rect>
@@ -1036,14 +1035,14 @@
           </li>
         </ul>
         <div class="contact-visit-info-section__actions">
-          <a href="https://maps.google.com/?q=אוסקר שינדלר 7 חיפה" target="_blank" rel="noopener noreferrer" class="contact-visit-info-section__btn contact-visit-info-section__btn--primary">
+          <a href="https://maps.google.com/?q=אוסקר שינדלר 7 חיפה" target="_blank" rel="noopener noreferrer" class="contact-visit-info-section__btn contact-visit-info-section__btn--primary" data-element-type="button" data-element-id="btn-1783077480758-dhlq9f4n4" data-native-element="true">
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path d="M9 1.5C5.68629 1.5 3 4.18629 3 7.5C3 11.1421 5.5 14.5 9 16.5C12.5 14.5 15 11.1421 15 7.5C15 4.18629 12.3137 1.5 9 1.5Z" stroke="currentColor" stroke-width="1.5"></path>
               <circle cx="9" cy="7.5" r="2" stroke="currentColor" stroke-width="1.5"></circle>
             </svg>
             ניווט ב-Google Maps
           </a>
-          <a href="https://wa.me/972543900358" target="_blank" rel="noopener noreferrer" class="contact-visit-info-section__btn contact-visit-info-section__btn--secondary">
+          <a href="https://wa.me/972543900358" target="_blank" rel="noopener noreferrer" class="contact-visit-info-section__btn contact-visit-info-section__btn--secondary" data-element-type="button" data-element-id="btn-1783077480758-ie0821jjc" data-native-element="true">
             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path d="M13.5 4.5C12.3284 3.32843 10.7426 2.63604 9 2.63604C5.68629 2.63604 3 5.32233 3 8.63604C3 9.82104 3.3 10.921 3.9 11.921L3 15.136L6.3 14.236C7.2 14.736 8.1 15.036 9 15.036C12.3137 15.036 15 12.3498 15 9.03604C15 7.29347 14.3076 5.70769 13.5 4.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
               <path d="M7.5 8.63604H10.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
@@ -1053,7 +1052,7 @@
           </a>
         </div>
         <p class="contact-visit-info-section__note">
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="flex-shrink:0;margin-top:2px;">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="flex-shrink:0;margin-top:2px;" data-element-type="icon" data-element-id="icon-1783077480761-30fqhya1h" data-icon-type="svg">
             <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.2"></circle>
             <path d="M8 4.5V8.5L10.5 10" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
@@ -1062,7 +1061,7 @@
       </div>
       <div class="contact-visit-info-section__media">
         <div class="contact-visit-info-section__image-wrapper">
-          <img loading="eager" fetchpriority="high" data-placeholder="contact-visit-info-image-1" data-context="Interior shot of Smart Point mobile repair shop in Haifa, showing a clean modern service counter with glowing cyan and amber diagnostic equipment, phone repair tools neatly organized, and a welcoming customer area with gadget displays on the wall. Premium midnight repair lab aesthetic with dark graphite surfaces and soft tech lighting." width="600" height="400" src="/assets/site-contact-visit-info-image-1.webp" alt="צילום פנים של מעבדת Smart Point בחיפה - דלפק שירות מודרני עם ציוד דיאגנוסטיקה מתקדם" class="contact-visit-info-section__image">
+          <img loading="eager" fetchpriority="high" data-placeholder="contact-visit-info-image-1" data-context="Interior shot of Smart Point mobile repair shop in Haifa, showing a clean modern service counter with glowing cyan and amber diagnostic equipment, phone repair tools neatly organized, and a welcoming customer area with gadget displays on the wall. Premium midnight repair lab aesthetic with dark graphite surfaces and soft tech lighting." width="600" height="400" src="/assets/site-contact-visit-info-image-1.webp" alt="צילום פנים של מעבדת Smart Point בחיפה - דלפק שירות מודרני עם ציוד דיאגנוסטיקה מתקדם" class="contact-visit-info-section__image" data-element-type="image" data-element-id="img-1783077480761-z1j8zq530">
           <div class="contact-visit-info-section__image-accent" aria-hidden="true"></div>
           <div class="contact-visit-info-section__image-glow" aria-hidden="true"></div>
         </div>
